@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste d'amis</title>
+</head>
+<body>
+    {% if amis %}
+        <ul>
+            {% for ami in amis %}
+                <li>{{ ami.nom_de_famille }}, {{ ami.prenom }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        Hai-Thuy n'a pas d'ami! :(
+    {% endif %}
+</body>
+</html>

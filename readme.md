@@ -32,4 +32,39 @@
     - Commit and Push
     - Push
 
--
+- Créer l'arborescence
+    - app
+        - config
+        - data
+        - static
+        - templates
+
+- Créer un fichier de config.py sour config/
+    - New - Python file: config (.py est ajouté automatiquement)
+    - Add dans git - Non (parce que ce fichier contient des secrets)
+    - Ajouter le contenu
+
+- Créer le fichier devoir02.py sous app/
+    - New - Python file: devoir02
+    - Add to git - Oui
+    - Ajouter le contenu
+
+- Créer le fichier index.html sous templates/
+    - New - HTML File: index
+    - Add to git - Oui
+    - Ajouter le contenu
+
+- Créer la base de données
+    - Dans le bas, il y a Version Control, Python Console, Terminal, TODO - Pèse sur terminal
+    - Tape python app/devoir02.py shell
+    from devoir import db
+    db.create_all()
+    (si pas d'erreur la BD est créée)
+    exit()
+
+- Roule ton application (dans le même terminal):
+    - Tape python app/devoir02.py runserver
+
+- Ouvre un browser
+    - http://127.0.0.1:5000
+
