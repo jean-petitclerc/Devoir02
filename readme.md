@@ -57,10 +57,10 @@
 - Créer la base de données
     - Dans le bas, il y a Version Control, Python Console, Terminal, TODO - Pèse sur terminal
     - Tape python app/devoir02.py shell
-    from devoir import db
-    db.create_all()
-    (si pas d'erreur la BD est créée)
-    exit()
+        - from devoir import db
+        - db.create_all()
+        - (si pas d'erreur la BD est créée)
+        - exit()
 
 - Roule ton application (dans le même terminal):
     - Tape python app/devoir02.py runserver
