@@ -57,7 +57,7 @@
 - Créer la base de données
     - Dans le bas, il y a Version Control, Python Console, Terminal, TODO - Pèse sur terminal
     - Tape python app/devoir02.py shell
-        - from devoir import db
+        - from devoir02 import db
         - db.create_all()
         - (si pas d'erreur la BD est créée)
         - exit()
